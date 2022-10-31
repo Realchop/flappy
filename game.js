@@ -217,7 +217,7 @@
                 if(this.y - r <= roof || this.y + r>= floor)
                 {
                     SFX.hit.play();
-                    return false;
+                    return true;
                 }
 
             }
